@@ -14,6 +14,7 @@ class App extends Component {
             amount, name, price
         });
         this.setState({items: currentItems});
+        console.log(this.state);
     }
 
     render() {

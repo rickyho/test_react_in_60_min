@@ -8,7 +8,7 @@ class Product extends Component {
         <div className="card-body">
             <h5 className="card-title">{this.props.title}</h5>
             <p className="card-text">{this.props.desc}</p>
-            <a href="/" className="btn btn-primary">Go somewhere</a>
+            <button onClick={this.props.onAdd} className="btn btn-primary">Go somewhere</button>
         </div>
       </div>
     }
